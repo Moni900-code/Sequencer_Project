@@ -24,34 +24,34 @@ In this mini-project, we will create a **Distributed Sequencer** that generates 
 ### 1. **Go to the Project Folder and Initialize a Node.js Project:**
 
 ```bash
-cd Task3_Sequencer
+cd sequencer
 npm init -y
 ```
-![Alt Text](images/init1.png)
+![Alt Text](images/init.png)
 
 ### 2. **Install Dependencies:**
 ```bash
 npm install express axios
 ```
-![Alt Text](images/inti2.png)
+![Alt Text](images/npm.png)
 
 ### 3. **Create Files:**
-- `sequencer.js`
+- `sequ.js`
 - `client.js`
 
 ### 4. **Run the System**:
 
    🚀 Start the Sequencer server: 
    ```bash
-    node sequencer.js   
+    node sequ.js   
    ```
-   ![Alt Text](images/sequencer.png) 
+   ![Alt Text](images/sequ.png) 
      
   🚀 Start the Sequencer server: 
    ```bash
 node client.js   
    ```
-   ![Alt Text](images/client.png) 
+   ![Alt Text](images/client_rslt.png) 
      
 Multiple clients will request IDs from the Sequencer server and the sequencer server will use an incrementing counter to generate Unique IDs.
 
