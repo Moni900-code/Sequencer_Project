@@ -29,13 +29,13 @@ npm init -y
 ```
 ![Alt Text](images/init1.png)
 
-### 3. **Install Dependencies:**
+### 2. **Install Dependencies:**
 ```bash
 npm install express axios
 ```
 ![Alt Text](images/inti2.png)
 
-### 4. **Create Files:**
+### 3. **Create Files:**
 - `sequencer.js`
 - `client.js`
 
