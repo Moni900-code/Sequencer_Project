@@ -10,6 +10,10 @@ client.on('error', (err) => {
 
 app.get('/get-id', async (req, res) => {
     try {
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b69b273 (update sequencer file)
         const id = await client.incr('unique_id_counter');
         res.json({ id });
     } catch (error) {
