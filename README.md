@@ -26,11 +26,8 @@ In this mini-project, we will create a **Distributed Sequencer** that generates 
 cd sequencer
 npm init -y
 ```
-<<<<<<< HEAD
-![Alt Text](images/init.png)
-=======
 ![Alt Text](images/INIT.png)
->>>>>>> 1a53b0c (update readme file)
+
 
 ### 2. **Install Dependencies:**
 ```bash
@@ -48,21 +45,15 @@ npm install express axios
    ```bash
     node sequ.js   
    ```
-<<<<<<< HEAD
-   ![Alt Text](images/sequ.png) 
-=======
+
    ![Alt Text](images/sequ_rlst.png) 
->>>>>>> 1a53b0c (update readme file)
      
   🚀 Start the Sequencer server: 
    ```bash
 node client.js   
    ```
-<<<<<<< HEAD
-   ![Alt Text](images/client_rslt.png) 
-=======
+
    ![Alt Text](images/clnt_rslt.png) 
->>>>>>> 1a53b0c (update readme file)
      
 Multiple clients will request IDs from the Sequencer server and the sequencer server will use an incrementing counter to generate Unique IDs.
 
